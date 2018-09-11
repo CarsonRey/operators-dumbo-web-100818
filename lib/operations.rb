@@ -11,6 +11,7 @@ end
 def not_safe?(speed)
 	speed < 40 || speed > 60 ? true : false
 end
-	
+
+# When using ternary operator, you don't need to use 'end' keyword
 
 
